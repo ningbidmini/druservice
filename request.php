@@ -26,6 +26,7 @@
 
   	$results = sentMessage($encodeJson,$LINEDatas);
 
+	echo $results;
 	/*Return HTTP Request 200*/
 	http_response_code(200);
 
